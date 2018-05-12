@@ -45,7 +45,7 @@ void setup()
 void loop()
 {
   float soilVal = analogSensor();
-  controlLED(soilVal);
+  //controlLED(soilVal); //do not uncomment :P
   delay(1000);
 }
 
